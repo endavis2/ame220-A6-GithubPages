@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+        Lizzie Davis Resume
+        </title>
+        <style>
+        p.solid {outline-style: solid;}
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+        }
+        h1, h2 {
+        	margin: 1em 0 0 0;
+        	text-align: center;
+        }
+        h2 {
+        	margin: 0 0 1em 0;
+        }
+        #container {
+            margin: 0 auto;
+            width: 50%;
+        }
+        #accordion input {
+        	display: none;
+        }
+        #accordion label {
+        	background: navy;
+        	border-radius: .25em;
+          color: lightblue;
+        	cursor: pointer;
+        	display: block;
+        	margin-bottom: .125em;
+        	padding: .25em 1em;
+        	z-index: 20;
+        }
+        #accordion label:hover {
+        	background: aliceblue;
+        }
+
+        #accordion input:checked + label {
+        	background: navy;
+        	border-bottom-right-radius: 0;
+        	border-bottom-left-radius: 0;
+        	color: lightblue;
+        	margin-bottom: 0;
+        }
+        #accordion article {
+        	background: aliceblue;
+        	height:0px;
+        	overflow:hidden;
+        	z-index:10;
+        }
+        #accordion article p {
+        	padding: 1em;
+        }
+        #accordion input:checked article {
+        }
+        #accordion input:checked ~ article {
+        	border-bottom-left-radius: .25em;
+        	border-bottom-right-radius: .25em;
+        	height: auto;
+        	margin-bottom: .125em;
+        }
+        body {
+          background-color: lightblue;
+        }
+        h1 {
+          color: navy;
+        }
+
+        </style>
+    </head>
+
+    <body>
+      <div id="container">
+      <h1 stlye = "text-color: navy" > Lizzie Davis  </h1>
+
+      <h2 style="font-size:100%;">
+      <a target='_blank' href="mailto: endavis2@asu.edu">Email</a>
+      <a target='_blank' href="tel: 480-243-6224">Phone Number</a>
+      <a target='_blank' href="https://www.google.com/maps/place/1721+E+Laguna+Dr,+Tempe,+AZ+85282/@33.3904955,-111.9126349,17z/data=!3m1!4b1!4m5!3m4!1s0x872b088189f7a817:0x842689ae5c0c1cd0!8m2!3d33.390491!4d-111.9104462">1721 E. Laguna Drive Tempe, AZ 85282</a>
+
+      </h2>
+
+      <img src= "resumephoto.jpg" width = auto height = auto class="center">
+
+
+      <section id="accordion">
+      <div>
+      <input type="checkbox" id="check-1" />
+      <label for="check-1">Objective</label>
+      <article>
+          <p>My objective for my career is to combine my passion for the arts with event planning. I want to plan and execute a variety of events for the arts, including but not limited to: theatre, ballet and musical performance.</p>
+      </article>
+      </div>
+
+
+      <style="font-size:100%;">
+        <section id="accordion">
+        <div>
+        <input type="checkbox" id="check-2" />
+        <label for="check-2">Education</label>
+        <article>
+        <table style="width:100%">
+          <tr>
+            <th>School</th>
+            <th>Major/Degree</th>
+            <th>Graduation Date</th>
+            <th>GPA</th>
+          </tr>
+          <tr>
+            <td>Arizona State University</td>
+            <td>Bachelors: Digital Culture(Theatre)</td>
+            <td>May 2021</td>
+            <td>4.0</td>
+          </tr>
+          <tr>
+            <td>Chaparral High School</td>
+            <td>High School Diploma</td>
+            <td>May 2017</td>
+            <td>3.8</td>
+          </tr>
+        </table>
+      </article>
+      </div>
+
+
+
+      <style="font-size:100%;">
+        <section id="accordion">
+        <div>
+        <input type="checkbox" id="check-3" />
+        <label for="check-3">Experience</label>
+        <article>
+      <ol>
+          <li>First Year Success Coach: (ASU First Year Success Center, Tempe, AZ)
+            I am assigned around 200 freshman to support and guide during their first year year of college and help smooth the transition between high school and college, serving as their connector, cheerleader and catalyst on campus.
+            I outreach by phone on average 20 people and conduct on average 8 appointment per week as well as document. </li>
+          <li>Ticket Seller (ASU Herberger Box Office, Tempe, AZ )
+            I sell tickets to patrons interested in ASU shows including theatre, dance and music.
+            Through this postion I encounter many different people on the job and has to adapt to fit their needs.   </li>
+          <li>Stage Manger (Desert Stages Theatre, Scottsdale, AZ)
+              I am member of production team in over a dozen shows (including) children, teens and adults.
+              In addition, I am in charge of production during performance, keeping actors on task and working with other techs and costumers to solve problems. </li>
+      </ol>
+    </article>
+    </div>
+
+
+
+      <style="font-size:100%;">
+        <section id="accordion">
+        <div>
+        <input type="checkbox" id="check-4" />
+        <label for="check-4">References</label>
+        <article>
+      <ul style="list-style-type:square;">
+        <li>Joseph Irelan:(480)727-3848/joseph.irelan@gmail.com </li>
+        <li>Stephanie Yampolsky:(602)451-4451/stephanie@desertstages.org </li>
+        <li>Zach Ciaburri:(480)499-8587/zachc@scottsdalearts.org </li>
+      </ul>
+    </article>
+    </div>
+
+    </body>
+
+</html>
